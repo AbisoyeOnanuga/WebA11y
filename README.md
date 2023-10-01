@@ -5,7 +5,7 @@ an open source web UI for performing website and app accessibility reviews
   <a href="https://github.com/dottymatrix/WebA11y/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration">
   </a>
-  <a href="https://github.com/dottymatrix/WebA11y/graphs/contributors(https://github.com/dottymatrix/WebA11y/graphs/contributors)">
+  <a href="https://github.com/dottymatrix/WebA11y/graphs/contributors">
     <img src="https://img.shields.io/github/contributors-anon/amplication/amplication?color=yellow&style=flat-square" alt="contributers">
   </a>
   <a href="https://opensource.org/licenses/Apache-2.0">
