@@ -6,9 +6,9 @@
 
 /* global window, document, getNodeDetails */
 import {Gatherer} from 'lighthouse';
-import BaseGatherer from '../node_modules/lighthouse/core/gather/base-gatherer';
-import {axeSource} from '../node_modules/lighthouse/core/lib/axe';
-import {pageFunctions} from '../node_modules/lighthouse/core/lib/page-functions';
+import BaseGatherer from 'lighthouse/core/gather/base-gatherer';
+import {axeSource} from 'lighthouse/core/lib/axe';
+import {pageFunctions} from 'lighthouse/core/lib/page-functions';
 
 /**
  * @return {Promise<LH.Artifacts.Accessibility>}

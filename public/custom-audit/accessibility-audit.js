@@ -7,7 +7,7 @@
  import {Audit} from 'lighthouse';
  import AccessibilityGatherer from './accessibility-gatherer';
  // Import the Audit module from the lighthouse-core folder
- import Audit from '../node_modules/lighthouse/core/audits/audit.js';
+ import Audit from 'lighthouse/core/audits/audit';
 
  // Get the accessibility information from the custom gatherer
  const accessibilityInfo = artifacts.AccessibilityGatherer;

@@ -1,14 +1,18 @@
 {
-  "name": "WebA11y",
+  "name": "weba11y",
   "version": "1.0.0",
+  "type" : "module",
   "description": "an open source web accessibility audit tool",
   "main": "index.js",
   "bin": {
     "lighthouse": ".node_modules/lighthouse/cli/index.js",
-    "chrome-debug": "./node_modules/lighthouse/core/scripts/manual-chrome-launcher.js",
-    "smokehouse": "./node_modules/lighthouse/cli/test/smokehouse/frontends/smokehouse-bin.js"
+    "chrome-debug": "node_modules/lighthouse/core/scripts/manual-chrome-launcher.js",
+    "smokehouse": "node_modules/lighthouse/cli/test/smokehouse/frontends/smokehouse-bin.js"
   },
-  "repository": "https://github.com/dottymatrix/WebA11y.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dottymatrix/WebA11y.git"
+  },
   "author": "Abisoye Onanuga <102636953+dottymatrix@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
@@ -19,9 +23,14 @@
   },
   "scripts": {
     "test": "lhci autorun",
-    "lighthouse": "lighthouse"
+    "lighthouse": "lighthouse",
+    "start": "node server.js"
   },
   "devDependencies": {
     "@lhci/cli": "^0.12.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dottymatrix/WebA11y/issues"
+  },
+  "homepage": "https://github.com/dottymatrix/WebA11y#readme"
 }

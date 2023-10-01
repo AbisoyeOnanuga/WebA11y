@@ -1,6 +1,6 @@
 // app.js
 const lighthouse = require('lighthouse');
-const config = require('./custom-audit/custom-config');
+const config = require('../public/custom-audit/custom-config');
 
 // Get the elements from the page
 const urlInput = $('#url-input');
@@ -81,9 +81,17 @@ function runAudit() {
   });
 }
 
-// Define a function to validate the URL
-function isValidUrl(url) {
-  // Use a regular expression to test the URL format
-  const regex = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
-  return regex.test(url);
+// Validate the URL
+if (url && isValidUrl(url)) {
+  // Send a POST request to the server with the URL as a query parameter
+  fetch('/audit?url=' + url, {method: 'POST'})
+    .then(response => response.json()) // Parse the response as a JSON object
+    .then(report => {
+      // Do something with the report, such as displaying it on the webpage
+    })
+    .catch(error => {
+      // Handle the error
+    });
+} else {
+  // Show an error message
 }
