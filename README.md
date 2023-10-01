@@ -11,7 +11,7 @@ an open source web UI for performing website and app accessibility reviews
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="license">
   </a>
-  <a href="https://www.youtube.com/c/Amplicationcomhttps://www.youtube.com/@dottymatrix/videos">
+  <a href="https://youtu.be/L-4dO-Ogm0k">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&" alt="youtube">
   </a>
 </h4>
