@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-   export default {
+export default {
     // 1. Run your custom tests along with all the default Lighthouse tests.
     extends: 'lighthouse:default',
   
@@ -35,4 +35,3 @@
       },
     },
   };
-  
