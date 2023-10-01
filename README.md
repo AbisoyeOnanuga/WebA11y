@@ -17,7 +17,7 @@ an open source web UI for performing website and app accessibility reviews
 </h4>
 
 # Project summary
-Weba11y is a low-code web UI design tool that allows users to review the accessibility of websites with little or no coding. Weba11y integrates with Google Lighthouse, a tool that audits web pages for performance, accessibility, best practices, and MongoDB Atlas, a cloud database service that provides a fully managed, scalable, and secure MongoDB deployment. With Weba11y, users can easily connect, query, and manipulate data from MongoDB Atlas, and get instant feedback and suggestions from Lighthouse to improve their web pages. Weba11y aims to make web development more accessible, efficient, and fun for everyone.
+Weba11y is a low-code web UI design tool that allows users to review the accessibility of websites with little or no coding. Weba11y integrates with Google Lighthouse, a tool that audits web pages for performance, accessibility, best practices, and MongoDB Atlas, a cloud database service that provides a fully managed, scalable, and secure MongoDB deployment. With Weba11y, users can easily get instant feedback and suggestions from Lighthouse to improve their web pages. Weba11y aims to make web development more accessible, and efficient for everyone.
 
 # How to test the app in its current Figma prototype
 - To test the app in its current Figma prototype, you can follow these steps:
@@ -35,17 +35,13 @@ To exit the presentation mode, press the Esc key or click on the X icon in the t
 
 # Development of the project
 We developed this project as part of a hackathon challenge to create a web app that integrates with Lighthouse and MongoDB Atlas. We used the following technologies and tools to create our project:
-
-- Netlify: A cloud platform for static frontends and serverless functions. We used Netlify to host our website and web app, and to integrate with Lighthouse and MongoDB Atlas.
-- Lighthouse: A tool that audits web pages for performance, accessibility, best practices, and SEO. We used Lighthouse as a plugin in our Netlify site, to generate reports and suggestions for our web pages.
+- Lighthouse: A tool that audits web pages for performance, accessibility, best practices, and SEO. We used Lighthouse as a plugin in our site, to generate **accessibility** reports and suggestions for our web pages.
 - MongoDB Atlas: A cloud database service that provides a fully managed, scalable, and secure MongoDB deployment. We used MongoDB Atlas to store and manage our data, and to connect with our web app.
-- Figma: A powerful and easy-to-use mockup tool that allows us to design, prototype, and collaborate on our web UI. We used Figma to create a realistic and interactive prototype of our web UI, and to record a demo video for our project.
-Wondershare DemoCreator: A screen recording and video editing software that can help us create professional-quality demo videos quickly and easily. We used Wondershare DemoCreator to capture the activity on our Figma prototype, and to add voiceover, music, and effects to our video.
+- Figma: We used Figma to create a realistic and interactive prototype of our web UI, and to record a demo video for our project.
 
 # Improvements to be expected in the future
 We plan to continue working on Weba11y and make it functional and user-friendly. Some of the improvements that we expect to make in the future are:
 
 Fix the issues with the Lighthouse integration, and make the reports and suggestions more visible and actionable.
-Add more features and options to our web UI design tool, such as drag-and-drop interface, data modeling, workflow automation, testing, debugging, and deployment.
-Test and improve our web UI mockup and our demo video, and make them more engaging and informative.
+Add more features and options to our web UI design tool, such as speech API, recommendations for mobile apps.
 Launch Weba11y as a web app that can help anyone create accessible and performant websites with ease.
