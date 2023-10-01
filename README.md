@@ -24,10 +24,10 @@ Weba11y is a low-code web UI design tool that allows users to review the accessi
 
 - Go to this link: <a href="https://www.figma.com/proto/dP4GFkxhqALtqqzypZgWKc/WebA11y?page-id=1%3A31&type=design&node-id=9-2&viewport=585%2C7%2C0.11&t=PQoscQ1HO8oPrWpF-1&scaling=contain&starting-point-node-id=9%3A2&mode=design">Web A11y Figma prototype</a> and sign in with your Figma account, or create one if you don’t have one.
 
-![Home wireframe_light](https://github.com/dottymatrix/Web-A11y/assets/102636953/d5f17083-7178-433a-8f9f-6ec2128b8168)
+![Home wireframe_light](https://github.com/dottymatrix/WebA11y/assets/102636953/01334f46-9122-4621-ac3a-da97d912c4f1)
 **light-mode home page**
 
-![Home wireframe_dark](https://github.com/dottymatrix/Web-A11y/assets/102636953/caa1a075-9674-4e14-a89c-f3753fed7c6f)
+![Home wireframe_dark](https://github.com/dottymatrix/WebA11y/assets/102636953/7fa4c5f3-c3f0-4d7a-baac-e5f06b70c411)
 **dark-mode home page**
 
 - Interact with the prototype by clicking on the buttons, links, and inputs on the screen. You can also use the arrow keys to navigate between the screens.
