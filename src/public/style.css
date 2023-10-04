@@ -1,0 +1,171 @@
+/* Import the Bootstrap CSS file */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+/*-- google fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+/* Add custom css rules here */
+
+/*-- base style --*/
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(54, 113, 181);
+  font-weight: 600;
+}
+
+body {
+    background-color: rgb(247, 244, 240);
+}
+
+:any-link:hover {
+    background-color: rgb(54, 113, 181);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.accessibility-search {
+    margin: auto;
+    background: rgb(212, 212, 212);
+    width: 60%;
+    border-radius: 21px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.071);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    vertical-align: middle;
+}
+
+.search-position {
+    margin: auto;
+}
+
+.header-1 {
+    margin-top: 21px;
+    padding-left: 50px;
+    padding-bottom: 21px;
+}
+
+.header-2 {
+    padding-left: 50px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.code {
+    margin: auto;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.email-contact {
+    margin: auto;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.top-nav {
+    margin: auto;
+    max-width: 50%;
+    padding: 15px 15px;
+    text-align: center;
+    position: sticky;
+}
+
+.search-label {
+    align-content: left;
+    text-align: left;
+    justify-self: left;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.input-search {
+    width: fit-content;
+    height: 50px;}
+
+input.input-box {
+    flex-flow: row;
+    width: 550px;
+    height: 50px;
+    margin-right: 12px;
+    border-radius: 25px;
+    border: 3px none rgb(118, 118, 118);
+    padding: 12px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+button {
+    border-radius: 12px;
+    padding: 12px 18px;
+    height: 50px;
+    background-color: rgb(79, 165, 218);
+    border: none;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(54, 113, 181);
+    border-color: rgb(54, 113, 181);
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+.bottom-nav{
+    margin-top: 5%;
+    display: block;
+    padding-right: 50px;
+    text-align: right;
+    justify-content: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.copyright {
+    margin-top: 60px;
+    text-align: center;
+}
+
+*:focus {
+    outline: rgb(202, 83, 139) dashed 2.5px;
+    font-weight: 600;
+    padding: 3px 20px;
+}
+
+.input-box:focus {
+    outline: rgb(202, 83, 139) dashed 2.5px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+*:any-link {
+    color: rgb(42, 147, 89);
+    font-size: large;
+}
+
+*:any-link:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 113, 181);
+    border-radius: 21px;
+}
+
+button:focus {
+    background-color: rgb(54, 113, 181);
+    border-color: rgb(54, 113, 181);
+}
