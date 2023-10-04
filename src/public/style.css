@@ -29,7 +29,7 @@ body {
     background-color: rgb(54, 113, 181);
     font-weight: 600;
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration: none;
 }
 
@@ -72,15 +72,37 @@ body {
 .email-contact {
     margin: auto;
     padding-right: 50px;
+    padding-top: 12px;
     text-align: right;
 }
 
 .top-nav {
+    margin-top: 12px;
+    margin-left: auto;
+    padding: 10px 12px;
+    gap: 21px;
+    display:flex;
+    justify-content: center;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: right;
+    flex-flow: column;
+}
+
+.bottom-nav-1 {
     margin: auto;
-    max-width: 50%;
-    padding: 15px 15px;
-    text-align: center;
-    position: sticky;
+    display: flex;
+    gap: 21px;
+    justify-content: right;
+}
+
+.bottom-nav-2 {
+    display: flex;
+    margin-right: 50px;
+    text-align: right;
+    justify-content: right;
 }
 
 .search-label {
@@ -121,16 +143,8 @@ button {
 button:hover {
     background-color: rgb(54, 113, 181);
     border-color: rgb(54, 113, 181);
-    padding: 12px 20px;
+    padding: 0px 20px;
     font-weight: bold;
-}
-
-.bottom-nav{
-    margin-top: 5%;
-    display: block;
-    padding-right: 50px;
-    text-align: right;
-    justify-content: right;
 }
 
 ul {
@@ -145,7 +159,7 @@ ul {
 *:focus {
     outline: rgb(202, 83, 139) dashed 2.5px;
     font-weight: 600;
-    padding: 3px 20px;
+    padding: 3px 15px;
 }
 
 .input-box:focus {
@@ -161,6 +175,13 @@ ul {
 
 *:any-link:focus {
     color: rgb(255, 255, 255);
+    background-color: rgb(79, 165, 218);
+    border-radius: 21px;
+}
+
+*:any-link:focus:hover {
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
     background-color: rgb(54, 113, 181);
     border-radius: 21px;
 }
