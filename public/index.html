@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Accessibility UI</title>
+    <!-- Load the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Load custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create a container for your web UI elements -->
+    <header>
+        <h1 class="header-1" title="web-accessibility">Web Accessibility</h1>
+        <h2 class="header-2" title="simplified-website-accessiblity-reports">website accessibility reports simplified</h2>
+        <p class="code" role="text">For more information, please see the Github</p>
+        <p class="email-contact">for help, contact developer by email<contact class="email"></contact></p>
+        <nav class="top-nav" role="menu">
+            <a href="#generate-report" role="link" title="generate-report">generate-report</a> 
+            <a href="#search-report" role="link" title="reports-library">reports-library</a>
+        </nav><br><br>
+    </header>
+    <main>
+        <!-- Add web UI elements here, such as forms, buttons, tables, etc. -->
+        <section class="accessibility-search">
+            <section class="search-position">
+                <label class="search-label" for="url-input">type or paste webpage here</label><br>
+                <section class="input-search">
+                    <input class="input-box" id="url-input" type="url" role="textbox" title="type or paste url link here">
+                    <button title="click to run accessibility report">start accessibility report</button>
+                </section>
+            </section>
+        </section>
+        <!-- You can use Vue.js directives and expressions to bind data and events -->
+
+        <section role="presentation">
+        </section>
+    </main>
+   <br><br>
+
+    <footer>
+        <nav class="bottom-nav" role="menu">
+            <section class="bottom-nav-1">        
+                <a href="https://www.youtube.com/watch?v=L-4dO-Ogm0k" role="link" title="watch-the-demo">Demo</a>
+                <a href="https://github.com/dottymatrix/weba11y" role="link" title="read-github-documentation">Github</a>
+                <a href="#accessibility" role="link" title="our-accessibility-report">Our accessibility report</a>
+            </section>
+            <section class="bottom-nav-2">
+                <p>
+                    <ul role="list">
+                        <li role="listitem"> <a href="/about" role="link"  title="about-us">About</a>
+                        <li role="listitem"> <a href="/copyright" role="link"  title="apache-2.0-license-document">Copyright</a>
+                        <li role="listitem"> <a href="/feedback" role="link"  title="send-feedback">Send feedback</a>
+                        <li role="listitem"> <a href="/terms" role="link"  title="terms-of-service">Terms</a>
+                    </ul>
+                </p>
+            </section>
+
+        </nav>
+        <p class="copyright"><small>Copyright © 2023 dottymatrix</small></p>
+        
+    </footer>
+    <!-- Load the axios library -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Load the Vue.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- Load custom JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
